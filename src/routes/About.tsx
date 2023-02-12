@@ -26,11 +26,10 @@ export default function About() {
 			<div className="content aek">
 				<h2 className="title">Ali Eren Kilinc</h2>
 				<p className="info">
-					Design of our first prototype model airplane is complete. We
-					are assembling it when we can spare time from our
-					universities. You can see the prototype on the right and if
-					you have any questions and suggestions, feel free to tell
-					us!
+					I am an Aerospace Engineering student at the Middle East
+					Technical University, Ankara. Since my childhood, I am an
+					aviation enthusiast, I improve myself in the field and try
+					to design new concepts.
 				</p>
 			</div>
 			<div className="spacer">
