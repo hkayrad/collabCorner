@@ -1,6 +1,7 @@
-export default function BackgroundVideo(children: any) {
+export default function BackgroundVideo() {
 	return (
 		<div className="bgVideo">
+			<img src="/img/2023.svg" />
 			<div className="cover"></div>
 			<video
 				style={{
