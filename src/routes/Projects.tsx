@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Model from '../components/Model';
 
 export default function Projects() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,9 @@ export default function Projects() {
 				</motion.div> */}
 			</div>
 			<div className="spacer"></div>
-			<div className="content threeD"></div>
+			<div className="content threeD">
+				<Model></Model>
+			</div>
 			<NavLink className={'navBtn'} to="/about">
 				<img src="/img/AboutBtn.svg" alt="" />
 			</NavLink>
